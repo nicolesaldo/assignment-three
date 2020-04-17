@@ -1,0 +1,377 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+}   
+
+h1 {
+    font-size: 56.82px;
+    color: #6017a3;
+    font-weight: bold;
+}
+header {
+    padding: 1.625rem;
+}
+
+.flex-header {
+    display: flex;
+    justify-content: space-between;
+}
+img {
+    height: 74px;
+}
+.header-msg {
+    display: block;
+    line-height: 1.2;
+}
+.header-msg p{
+    font-size: 14px;
+    color: #7d7d7d;
+    font-style: italic;
+}
+.toggle-icon {
+    margin-top: 30px;
+}
+
+.toggle-icon span {
+    width: 30px;
+    height: 4px;
+    margin-bottom: 6px;
+    border-radius: 100px;
+    background-color: #3f3f3f;
+    display: block;
+}
+
+.menu-links li {
+    line-height: 60px;
+    background: rgb(239,239,239);
+    background: linear-gradient(360deg, rgba(239,239,239,1) 0%, rgba(245,245,246,1) 35%, rgba(255,255,255,1) 100%);
+    border-bottom: 1px solid #d4d4d4;
+    padding-left: 1.625rem;
+    
+}
+
+.menu-links a {
+    display: block;
+    text-decoration: none;
+    font-size: 17px;
+    color: #707070;
+}
+i {
+    margin-right: 27px;
+}
+header nav {
+    /* style the nav for how it will look over top of the main content */
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.9);
+    width: 100vw;
+    left: 0;
+    /* hide the nav by taking away the height. Transitions only work with the max-heigh property*/
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.7s ease-in-out;
+}
+.menu-links img {
+    height: 26px;
+}
+.show-nav {
+    max-height: 22.5625rem;
+    /* add extra space to the bottom of the show nav */
+    /* padding: 0 1rem; */
+}
+
+.main-bg {
+    background-image: url(../img/header-bg.jpg);
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+    padding: 0;
+    color: #fff;
+    padding: 55px 45px;
+    line-height: 1;
+    text-align: center;
+}
+
+h2 {
+    font-size: 31px;
+    font-weight: bold;
+    padding-bottom: 13px;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.features {
+    background-color: #2d2d2d;
+    padding: 1.625rem;
+    color: #fff;
+}
+.tagline {
+    margin-left: 73px;
+}
+.features h3 {
+    font-size: 25px;
+}
+
+h4 {
+    font-size: 16px;
+    font-weight: lighter;
+    padding-left: 35px;
+}
+.map {
+    background-image: url(../img/map.png);
+    height: 125px;
+    margin-top: 29px;
+}
+
+
+.feature-content div img {
+    margin: 26px 0;
+    height: auto;
+    margin-left: 142px;
+}
+
+.feature-content div h3 {
+    margin-bottom: 38px;
+}
+
+.screen-color-bg {
+    background-color: #222222;
+    height: 319px;
+    padding-top: 22px;
+}
+
+.screen {
+    background-image: url(../img/small-bg-screen.gif);
+    height: 295px;
+    background-repeat: no-repeat;
+    margin-left: 16px;
+    color: #fff;
+
+}
+
+.screen h3 {
+    font-size: 25px;
+    padding-top: 164px;
+    padding-left: 34px;
+    
+}
+
+.screen p {
+    text-align: center;
+}
+
+.screen h3 span {
+    padding-left: 122px;
+}
+
+.team {
+    background-color: #ebebeb;
+}
+
+.team h4 {
+    font-size: 31px;
+    color: #717171;
+    padding-top: 56px;
+    padding-left: 48px;
+}
+
+.team p {
+    color: #717171;
+    padding-left: 78px;
+}
+
+.team .profile {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 21px;
+}
+
+.profile img {
+    max-width: auto;
+    height: auto;
+    margin-top: 23px;
+}
+
+.profile h2 {
+    font-size: 20px;
+    color: #7b7b7b;
+    margin-top: 31px;
+    font-weight: bold;
+}
+
+.profile p {
+    color: #7b7b7b;
+    padding-left: 0;
+    margin-bottom: 3px;
+}
+
+.reviews{
+    margin-top: 28px;
+    margin-bottom: 53px;
+}
+.reviews div {
+    background-color: #fff;
+    margin-top: 23px;
+    padding-bottom: 53px;
+}
+
+.reviews img {
+    padding: 0;
+    margin: 0;
+}
+
+.reviews h2{
+    margin-top: 26px;
+    padding: 0 38px 35px 28px;
+    font-size: 25px;
+    color: #252525;
+}
+
+.reviews p {
+    padding: 0 38px 0 28px;
+    color: #949494;
+}
+
+.reviews .main-p {
+    color: #6017a3;
+    font-weight: bold;
+}
+
+.purple-bar {
+    background-color: #6017a3;
+    height: 29px;
+}
+
+footer {
+    background-color: #373737;
+    padding: 0 20px 35px 20px;
+    color: #fff;
+}
+
+.footer-header {
+    display: flex;
+    padding-top: 28px;
+    padding-bottom: 52px;
+}
+
+.footer-header img {
+    height: 52px;
+}
+
+.footer-header .header-msg {
+    padding-left: 10px;
+}
+
+.footer-header .header-msg h1 {
+    font-size: 39.06px;
+    color: #fff;
+}
+.footer-header .header-msg p {
+    color: #7d7d7d;
+    font-size: 12px;
+}
+footer nav {
+    margin-top: 34px;
+    padding-bottom: 18px;
+}
+.offers,
+.media-links {
+    display: flex;
+    justify-content: space-between;
+}
+.offers li,
+.media-links li {
+    display: inline;
+}
+.offers li a{
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 2px solid #914dcf;
+}
+
+.media-links li a {
+    font-size: 12px;
+    color: #fff;
+    text-decoration: none;
+}
+.media-links i {
+    margin-right: 5px;
+}
+.media {
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+@media only screen and (min-width: 768px) {
+    .toggle-icon {
+        display: none;
+    }
+
+    header nav {
+        max-height: 91px;
+        position: static;
+        width: auto;
+        transition: none;
+    }
+    header {
+        padding: 0;
+        background-color: #ebebeb;
+    }
+    .flex-header {
+        justify-content: flex-start;
+        padding: 1.625rem;
+    }
+    img {
+        margin-right: 8px;
+    }
+    .menu-links {
+        display: flex;
+        justify-content: space-between;
+    }
+    .menu-links li {
+        height: 91px;
+        line-height: 0;
+        border-bottom-style: none;
+        border-right: 1px solid #d4d4d4;
+        padding-left: 0;
+        background: rgb(232,232,232);
+        background: linear-gradient(360deg, rgba(232,232,232,1) 0%, rgba(244,244,244,1) 9%, rgba(255,255,255,1) 49%);
+        width: 126px;
+    }
+    .menu-links i {
+        padding: 26px 0 15px 28px;
+    }
+    .menu-links a {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    .main-bg {
+        background-image: url(../img/header-bg-med.jpg);
+        height: 402px;
+        padding-top: 155px;
+    }
+    h2 {
+        font-size: 48px;
+    }
+    .map {
+        background-image: url(../img/map-med.png);
+        height: 185px;
+    }
+    .tagline h3 {
+        font-size: 39px;
+    }
+    h4 {
+        font-size: 25px;
+        padding-left: 0;
+        text-align: center;
+    }
+    .tagline {
+        margin-left: 46px;
+    }
+}
+
