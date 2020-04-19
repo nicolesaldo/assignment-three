@@ -4,7 +4,7 @@ body {
 }   
 
 h1 {
-    font-size: 56.82px;
+    font-size: 3.55rem;
     color: #6017a3;
     font-weight: bold;
 }
@@ -17,7 +17,7 @@ header {
     justify-content: space-between;
 }
 img {
-    height: 74px;
+    height: 4.625rem;
 }
 .header-msg {
     display: block;
@@ -29,20 +29,20 @@ img {
     font-style: italic;
 }
 .toggle-icon {
-    margin-top: 30px;
+    margin-top: 1.875rem;
 }
 
 .toggle-icon span {
-    width: 30px;
+    width: 1.875rem;
     height: 4px;
     margin-bottom: 6px;
-    border-radius: 100px;
+    border-radius: 6.25rem;
     background-color: #3f3f3f;
     display: block;
 }
 
 .menu-links li {
-    line-height: 60px;
+    line-height: 3.75rem;
     background: rgb(239,239,239);
     background: linear-gradient(360deg, rgba(239,239,239,1) 0%, rgba(245,245,246,1) 35%, rgba(255,255,255,1) 100%);
     border-bottom: 1px solid #d4d4d4;
@@ -57,7 +57,7 @@ img {
     color: #707070;
 }
 i {
-    margin-right: 27px;
+    margin-right: 1.6875rem;
 }
 header nav {
     /* style the nav for how it will look over top of the main content */
@@ -71,34 +71,32 @@ header nav {
     transition: all 0.7s ease-in-out;
 }
 .menu-links img {
-    height: 26px;
+    height: 1.625rem;
 }
 .show-nav {
     max-height: 22.5625rem;
-    /* add extra space to the bottom of the show nav */
-    /* padding: 0 1rem; */
 }
 
 .main-bg {
     background-image: url(../img/header-bg.jpg);
-    height: 200px;
+    height: 12.5rem;
     background-position: center;
     background-size: cover;
     padding: 0;
     color: #fff;
-    padding: 55px 45px;
+    padding: 3.4375rem 2.8125rem;
     line-height: 1;
     text-align: center;
 }
 
 h2 {
-    font-size: 31px;
+    font-size: 1.9375rem;
     font-weight: bold;
-    padding-bottom: 13px;
+    padding-bottom: 0.8125rem;
 }
 
 h3 {
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: lighter;
 }
 
@@ -108,53 +106,54 @@ h3 {
     color: #fff;
 }
 .tagline {
-    margin-left: 73px;
+    margin-left: 4.5625rem;
 }
 .features h3 {
-    font-size: 25px;
+    font-size: 1.5625rem;
 }
 
 h4 {
     font-size: 16px;
     font-weight: lighter;
-    padding-left: 35px;
+    padding-left: 2.1875rem;
 }
 .map {
     background-image: url(../img/map.png);
-    height: 125px;
-    margin-top: 29px;
+    height: 7.8125rem;
+    margin-top: 1.8125rem;
+    background-repeat: no-repeat;
 }
 
 
 .feature-content div img {
-    margin: 26px 0;
+    margin: 1.625rem 0;
     height: auto;
-    margin-left: 142px;
+    margin-left: 8.875rem;
 }
 
 .feature-content div h3 {
-    margin-bottom: 38px;
+    margin-bottom: 1.625rem;
 }
 
 .screen-color-bg {
     background-color: #222222;
-    height: 319px;
-    padding-top: 22px;
+    height: 19.9375rem;
+    padding-top: 1.375rem;
 }
 
 .screen {
     background-image: url(../img/small-bg-screen.gif);
-    height: 295px;
+    height: 18.4375rem;
     background-repeat: no-repeat;
-    margin-left: 16px;
+    margin-left: 1.3125rem;
     color: #fff;
 
 }
 
 .screen h3 {
-    font-size: 25px;
-    padding-top: 164px;
-    padding-left: 34px;
+    font-size: 1.5625rem;
+    padding-top: 10.25rem;
+    padding-left: 2.125rem;
     
 }
 
@@ -163,7 +162,7 @@ h4 {
 }
 
 .screen h3 span {
-    padding-left: 122px;
+    padding-left: 7.625rem;
 }
 
 .team {
@@ -171,67 +170,72 @@ h4 {
 }
 
 .team h4 {
-    font-size: 31px;
+    font-size: 1.9375rem;
     color: #717171;
-    padding-top: 56px;
-    padding-left: 48px;
+    padding-top: 3.5rem;
+    padding-left: 3rem;
 }
 
 .team p {
     color: #717171;
-    padding-left: 78px;
+    padding-left: 4.875rem;
 }
 
 .team .profile {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding: 0 21px;
+    padding: 0 1.3125rem;
 }
 
-.profile img {
-    max-width: auto;
-    height: auto;
-    margin-top: 23px;
+.profile > div > img{
+    /* max-width: auto; */
+    height: 10.375rem;
+    width: 10.375rem;
+    /* height: auto; */
+    margin-top: 1.4375rem;
 }
+
 
 .profile h2 {
-    font-size: 20px;
+    font-size: 1.25rem;
     color: #7b7b7b;
-    margin-top: 31px;
+    margin-top: 1.9375rem;
     font-weight: bold;
 }
 
 .profile p {
     color: #7b7b7b;
     padding-left: 0;
-    margin-bottom: 3px;
+    margin-bottom: 0.1875rem;
 }
 
 .reviews{
-    margin-top: 28px;
-    margin-bottom: 53px;
+    margin-top: 1.75rem;
+    margin-bottom: 3.3125rem;
 }
 .reviews div {
     background-color: #fff;
-    margin-top: 23px;
-    padding-bottom: 53px;
+    margin-top: 1.4375rem;
+    padding-bottom: 3.3125rem;
 }
 
 .reviews img {
     padding: 0;
     margin: 0;
 }
-
+.reviews div img {
+    height: 1.875rem;
+}
 .reviews h2{
-    margin-top: 26px;
-    padding: 0 38px 35px 28px;
-    font-size: 25px;
+    margin-top: 1.625rem;
+    padding: 0 2.375rem 2.1875rem 1.75rem;
+    font-size: 1.5625rem;
     color: #252525;
 }
 
 .reviews p {
-    padding: 0 38px 0 28px;
+    padding: 0 2.375rem 0 1.75rem;
     color: #949494;
 }
 
@@ -242,40 +246,40 @@ h4 {
 
 .purple-bar {
     background-color: #6017a3;
-    height: 29px;
+    height: 1.8125rem;
 }
 
 footer {
     background-color: #373737;
-    padding: 0 20px 35px 20px;
+    padding: 0 1.25rem 2.1875rem 1.25rem;
     color: #fff;
 }
 
 .footer-header {
     display: flex;
-    padding-top: 28px;
-    padding-bottom: 52px;
+    padding-top: 1.75rem;
+    padding-bottom: 3.25rem;
 }
 
 .footer-header img {
-    height: 52px;
+    height: 3.25rem;
 }
 
 .footer-header .header-msg {
-    padding-left: 10px;
+    padding-left: 0.625rem;
 }
 
 .footer-header .header-msg h1 {
-    font-size: 39.06px;
+    font-size: 2.4413rem;
     color: #fff;
 }
 .footer-header .header-msg p {
     color: #7d7d7d;
-    font-size: 12px;
+    font-size: 0.75rem;
 }
 footer nav {
-    margin-top: 34px;
-    padding-bottom: 18px;
+    margin-top: 2.125rem;
+    padding-bottom: 1.125rem;
 }
 .offers,
 .media-links {
@@ -298,12 +302,13 @@ footer nav {
     text-decoration: none;
 }
 .media-links i {
-    margin-right: 5px;
+    margin-right: 0.3125rem;
 }
 .media {
-    margin-right: 25px;
-    margin-left: 25px;
+    margin-right: 1.5625rem;
+    margin-left: 1.5625rem;
 }
+
 
 @media only screen and (min-width: 768px) {
     .toggle-icon {
@@ -311,7 +316,7 @@ footer nav {
     }
 
     header nav {
-        max-height: 91px;
+        max-height: 5.6875rem;
         position: static;
         width: auto;
         transition: none;
@@ -325,24 +330,24 @@ footer nav {
         padding: 1.625rem;
     }
     img {
-        margin-right: 8px;
+        margin-right: 0.5rem;
     }
     .menu-links {
         display: flex;
         justify-content: space-between;
     }
     .menu-links li {
-        height: 91px;
+        height: 5.6875rem;
         line-height: 0;
         border-bottom-style: none;
         border-right: 1px solid #d4d4d4;
         padding-left: 0;
         background: rgb(232,232,232);
         background: linear-gradient(360deg, rgba(232,232,232,1) 0%, rgba(244,244,244,1) 9%, rgba(255,255,255,1) 49%);
-        width: 126px;
+        width: 7.875rem;
     }
     .menu-links i {
-        padding: 26px 0 15px 28px;
+        padding: 1.625rem 0 0.9375rem 1.75rem;
     }
     .menu-links a {
         display: flex;
@@ -352,26 +357,256 @@ footer nav {
     }
     .main-bg {
         background-image: url(../img/header-bg-med.jpg);
-        height: 402px;
-        padding-top: 155px;
+        height: 25.125rem;
+        padding-top: 9.6875rem;
     }
     h2 {
-        font-size: 48px;
+        font-size: 3rem;
     }
     .map {
         background-image: url(../img/map-med.png);
-        height: 185px;
+        height: 11.5625rem;
     }
     .tagline h3 {
-        font-size: 39px;
+        font-size: 2.4375rem;
     }
     h4 {
-        font-size: 25px;
+        font-size: 1.5625rem;
         padding-left: 0;
         text-align: center;
     }
     .tagline {
-        margin-left: 46px;
+        margin-left: 2.875rem;
+    }
+    .feature-content > div{
+        display: flex;
+    }
+    .feature-content div .content {
+        margin-top: 1.625rem;
+        margin-bottom: 2.75rem;
+    }
+    .feature-content div img {
+        margin-left: 0;
+        margin-right: 2.875rem;
+        height: 4.875rem;
+        width: 5.375rem;
+    }
+    .feature-content div .cloud {
+        height: 3.125rem;
+    }
+    .screen {
+        background-image: url(../img/med-bg-screen.png);
+    }
+    .screen h3 {
+        font-size: 1.9375rem;
+        padding-left: 8.125rem;
+    }
+    .screen h3 span {
+        padding-left: 0;
+    }
+    .team h4 {
+        font-size: 2.4375rem;
+        padding-left: 0.625rem;
+    }
+    .team > p {
+        text-align: center;
+        padding-left: 0;
+    }
+    .profile > div > img {
+        width: 21.875rem;
+        height: 21.875rem;
+    }
+    .profile h2 {
+        font-size: 2.4375rem;
+    }
+    .reviews {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .reviews div {
+        width: 21.9375rem;
+    }
+    .reviews div:last-child {
+        width: auto;
+    }
+    footer {
+        display: flex;
+    }
+    .footer-logo > p {
+        width: 20.3125rem;
+        margin-right: 1.875rem;
+    }
+    .footer-header {
+        padding-bottom: 1.6875rem;
+    }
+    footer .flex-footer {
+        display: flex;
+        flex-direction: column;
+        margin-top: 3.125rem;
+    }
+    .flex-footer p {
+        order: 1;
+    }
+    .media {
+        margin-left: 0;
+        margin-right: 4.9375rem;
+    }
+    footer nav {
+        margin-top: 0;
+    }
+}
+
+@media only screen and (min-width: 1140px) {
+    header {
+        padding: 2.8125rem 10rem 0 10rem;
+    }
+    .flex-header {
+        padding-left: 0;
+        padding-bottom: 2.3125rem;
+        padding-top: 0;
+    }
+    header nav {
+        box-shadow: -1px 7px 10px 5px rgba(0,0,0,.2);
+    }
+    .menu-links li {
+        width: 195px; 
+        padding-left: 0;
+    }
+    .menu-links a {
+        height: 5.6875rem;
+    }
+    .menu-links a:hover {
+        border-bottom: 5px solid #6017a3;
+        color: #701dbb;
+        margin-bottom: 0.625rem;
+    }
+    .menu-links li:hover {
+        margin-bottom: 0.625rem;
+    }
+    .main-bg {
+        background-image: url(../img/header-bg-large.jpg);
+        background-size: cover;
+        height: 34.5rem;
+        width: 100%;
+        padding: 9.6875rem 24.375rem 0 24.375rem;
+    }
+    .main-bg h2 {
+        font-size: 3.8125rem;
+    }
+    .main-bg h3 {
+        font-size: 1.9375rem;
+    }
+    .flex-tagline {
+        display: flex;
+        padding: 1.5625rem 11.4375rem 3.75rem 11.4375rem;
+    }
+    .map {
+        width: 585px;
+        background-image: url(../img/map-lg.png);
+    }
+    .tagline {
+        width: 26.25rem;
+        margin-left: 0;
+        margin-right: 4.375rem;
+    }
+    .tagline h3{
+        font-size: 3rem;
+    }
+    .tagline h4 {
+        text-align: center;
+        font-size: 1.9375rem;
+    }
+    .feature-content {
+        display: flex;
+        padding-left: 11.4375rem;
+        padding-right: 11.4375rem;
+        
+    }
+    .feature-content > div{
+        flex-direction: column;
+        padding-right: 2.5rem;
+        
+    }
+    .feature-content div img {
+        width: 4.75rem;
+        margin: 0 auto;
+    }
+    .feature-content div .cloud {
+        margin-bottom: 1.75rem;
+    }
+    .feature-content div h3 {
+        font-size: 2.4375rem;
+    }
+    .screen-color-bg{
+        padding: 4.375rem 7.3125rem 0 7.3125rem;
+        height: 31.875rem;
+    }
+    .screen {
+        background-image: url(../img/lg-bg-screen.png);
+        height: 27.625rem;
+        margin-left: 0;
+
+    }
+    .screen h3 {
+        padding-left: 21.3125rem;
+        font-size: 2.4375rem;
+        padding-top: 18.0625rem;
+    }
+    .screen p{
+        font-size: 1.5625rem;
+    }
+    .team h4 {
+        font-size: 3rem;
+    }
+    .profile > div > img {
+        width: 16.5625rem;
+        height: 16.5625rem;
+        margin-right: 1.875rem;
+    }
+    .team .profile {
+        padding: 3.125rem 9.5rem 0 9.5rem;
+    }
+    .profile h2 {
+        font-size: 1.9375rem;
+    }
+    .profile p {
+        font-size: 1.5625rem;
+    }
+    .reviews div:last-child {
+        width: 22.5rem;
+    }
+    .reviews div{
+        margin-right: 2.0625rem;
+        width: 22.5rem;
+    }
+    .reviews div > p {
+        font-size: 16px;
+    }
+    .reviews div > h2 {
+        padding-bottom: 1.25rem;
+    }
+    .reviews div .customer {
+        padding-bottom: 4.125rem;
+    }
+    footer {
+        padding: 4.875rem 12.9375rem;
+    }
+    footer .flex-footer {
+        margin-top: 1.875rem;
+    }
+    .footer-logo > p {
+        width: auto;
+        margin-right: 6.0625rem;
+    }
+    .offers li a{
+        border-bottom-style: none;
+    }
+    .offers li a:hover{
+        border-bottom: 2px solid #914dcf;
+    }
+    .media {
+        margin-right: 11.625rem;
     }
 }
 
